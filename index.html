@@ -3,15 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Why You Do This?</title>
   <style>
     body {
       margin: 0;
       padding: 0;
+      font-family: sans-serif;
+    }
+
+    .info {
+      padding: 1rem;
     }
   </style>
 </head>
 <body>
+  <div class="info">
+    <h1>Why You Do This?</h1>
+    <p>Click the page to ask the question.</p>
+    <p>Enter this in the URL bar of any web page, OR add as a bookmark to easily add to any web page with 1 click:</p>
+    <pre>javascript:var script=document.createElement("script");script.src="https://why-you-do-this.now.sh/why.min.js",document.body.appendChild(script);</pre>
+    <small>NOTE: make sure to include the `javascript:` part at the beginning. Chrome copy / paste sometimes removes this.</small>
+    <p>View the code <a href="https://github.com/CodingGarden/why-you-do-this">here</a>.</p>
+  </div>
   <script src="why.js"></script>
 </body>
 </html>
