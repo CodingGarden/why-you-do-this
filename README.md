@@ -9,10 +9,16 @@ View the live site here: [https://why-you-do-this.now.sh/](https://why-you-do-th
 
 ### Bookmarklet / Add to any web page:
 
-Enter this in the URL bar of any web page, OR add as a bookmark to easily add to any web page with 1 click:
+* Enter this in the URL bar of any web page, OR add as a bookmark to easily add to any web page with 1 click:
 
 ```js
 javascript:var script=document.createElement("script");script.src="https://why-you-do-this.now.sh/why.min.js",document.body.appendChild(script);
 ```
 
 >NOTE: make sure to include the `javascript:` part at the beginning. Chrome copy / paste sometimes removes this.
+
+### Chrome Extension
+
+* Download and install the [why-extension.zip](why-extension.zip) file.
+
+>NOTE: the extension has been submitted to the chrome store and will be available soon.
