@@ -7,6 +7,13 @@ A gorgeous meme by a gorgeous boi:
 
 View the live site here: [https://why-you-do-this.now.sh/](https://why-you-do-this.now.sh/)
 
+### Chrome Extension
+
+* Download and install the [why-extension.zip](why-extension.zip) file.
+
+>NOTE: You will need to install the extension manually for now. The extension has been submitted to the chrome store and will be available soon.
+
+
 ### Bookmarklet / Add to any web page:
 
 * Enter this in the URL bar of any web page, OR add as a bookmark to easily add to any web page with 1 click:
@@ -16,9 +23,3 @@ javascript:var script=document.createElement("script");script.src="https://why-y
 ```
 
 >NOTE: make sure to include the `javascript:` part at the beginning. Chrome copy / paste sometimes removes this.
-
-### Chrome Extension
-
-* Download and install the [why-extension.zip](why-extension.zip) file.
-
->NOTE: the extension has been submitted to the chrome store and will be available soon.
